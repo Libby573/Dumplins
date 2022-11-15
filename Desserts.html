@@ -5,39 +5,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dumplins Bistro and Bakery</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+    <div class="bar">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="#">Transparent to Solid Nav</a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="Menu.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menu
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="Menu.html">Menu</a></li>
+                  <li><a class="dropdown-item" href="DailySpecial.html">Daily Special</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="Desserts.html">Desserts</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="SpecialCakes.html">Special Cakes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ReservationDelivery.html">Reservation/Delivery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ContactUs.html">Contact Info</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0 profile-menu"> 
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-user"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#"><i class="fas fa-sliders-h fa-fw"></i> Account</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fas fa-cog fa-fw"></i> Settings</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt fa-fw"></i> Log Out</a></li>
+                </ul>
+              </li>
+           </ul>
+           </div>
+          </div>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Another Link</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
 
 <div class="image">
-   <h1 class="heading">Main Heading</h1>
-   <p><button class="btn btn-large">Big Button</button></p>
+   <h1 class="heading">Our Desserts</h1>
+   <p><button class="btn btn-large">Order Now</button></p>
 </div>
 <div class="about">
-   <h2>Main Description</h2>
-   <p>Roll on the floor purring your whiskers off intrigued by the shower burrow under covers, and play time, rub face on everything, intently sniff hand, or pelt around the house and up and down stairs chasing phantoms. Attack feet. Damn that dog shake treat bag under the bed drink water out of the faucet for lick butt love to play with owner's hair tie. Swat at dog give attitude.</p>
+   <center><h1>Desserts</h1></center>
+   <center><p>Dumplins Bistro & Bakery is known for their mouth-watering desserts! All of our cakes are $23.99 amd all our pies are $20.99. We sell slices too!</p></center>
 </div>
-    <center><h1>Desserts</h1></center>
+    
+    <hr>
+    <div class="container text-left">
+      <div class="row align-items-start">
+        <div class="col">
+          <img src="img/StrawCake2.png" alt="cake" height="450px">
+        </div>
+        <div class="col">
+          <h2>Cakes</h2>
+          <ul>
+            <li>Strawberry Cake</li>
+            <li>Red Velvet Cake</li>
+            <li>Carrot Cake</li>
+            <li>Double Chocolate Cake</li>
+            <li>German Chocolate Cake</li>
+            <li>Oreo Cake</li>
+            <li>Birthday Cake</li>
+            <li>Caramel Cake</li>
+            <li>Coconut Cake</li> 
+
+          </ul>
+        </div>
+      </div>
+      <div class="container text-right">
+        <div class="row align-items-start">
+          <div class="col">
+            <h2>Pies</h2>
+            <ul>
+              <li>Key Lime Pie</li>
+              <li>Lemon Ice Box Pie</li>
+              <li>Coconut Pie</li>
+              <li>Chocolate Pie</li>
+            </ul>
+          </div>
+          <div class="col">
+            <img src="img/KeyLime.png" alt="pie" height="450">
+          </div>
+          <div class="container text-center">
+            <div class="row align-items-start">
+              <div class="col">
+                One of three columns
+              </div>
+              <div class="col">
+                One of three columns
+              </div>
+            </div>
 
 
     <credit-->
