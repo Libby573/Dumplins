@@ -5,8 +5,9 @@
 
 
 .box{
-  background-image: url("img/menu.PNG");
+  background-image: url("img/MicrosoftTeams-image\ \(2\).png");
   background-repeat: no-repeat;
+
   background-position: center;
   
   height: 200px;
@@ -14,9 +15,16 @@
   margin: 150px auto;
 }
 .bar{
-  background-color: #D7B359;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(215,179,89,1) 29%, rgba(209,150,74,1) 88%);
 }
 
+body{
+  background-color: #F5EDED ;
+}
+
+.footer{
+  background-color: #e6cc96;
 }
 
 .profile-menu { 
@@ -34,5 +42,18 @@
     border-bottom: .3em solid;
     }
 
+.gradient{
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(215,179,89,1) 29%, rgba(209,150,74,1) 88%);
+}
 
-    
+
+
+.gallery img{
+
+ 
+  border-radius: 5%;
+  
+   
+  }
+
