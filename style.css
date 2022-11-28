@@ -5,28 +5,35 @@
 .cake{
   text-align: center;
 }
-
+.nav{
+  color:rgb(255, 255, 255)0;}
 .box{
-  text-align: center;
-  color: rgb(184, 150, 78);
+  
+  color: rgb(0, 0, 0);
   background-color: rgb(248, 240, 225);
   background-repeat:no-repeat ;
 background-position: center;
   background-size: 66ch;
 }
 .bar{
-  background: rgb(253, 244, 244);
-  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(215,179,89,1) 29%, rgba(209,150,74,1) 88%);
+  color: rgb(255, 255, 255);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(163, 154, 154) 29%, rgb(122, 122, 122) 88%);
 }
-
 body{
   background-color: rgb(253, 244, 244);
 }
 
 .footer{
-  background-color: #e6cc96;
+  color: rgb(255, 255, 255);
+  background-color: rgb(29, 28, 28);
 }
-
+.table{
+  color: rgb(255, 255, 255);
+}
+.table2{
+  color: black;
+}
 .profile-menu { 
  
     right: 0;
