@@ -64,5 +64,8 @@ body{
    
   }
 
-  
+  .row .col div {
+    background-color: gray;
+    min-height: 20rem;
+  }
 
