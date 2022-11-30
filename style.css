@@ -1,14 +1,15 @@
 .home{
     color: #D7B359;
 }
-
+.about{
+  font-family: 'Gelasio', serif;
+}
 .cake{
   text-align: center;
 }
 .nav{
   color:rgb(255, 255, 255)0;}
 .box{
-  
   color: rgb(0, 0, 0);
   background-color: rgb(248, 240, 225);
   background-repeat:no-repeat ;
@@ -18,10 +19,11 @@ background-position: center;
 .bar{
   color: rgb(255, 255, 255);
   background: rgb(255, 255, 255);
-  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(163, 154, 154) 29%, rgb(122, 122, 122) 88%);
+  background: linear-gradient(90deg, #7C7C7C 0%, #888888 29%, rgb(122, 122, 122) 88%);
 }
 body{
-  background-color: rgb(253, 244, 244);
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(255, 255, 255);
 }
 
 .footer{
