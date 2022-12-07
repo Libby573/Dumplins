@@ -9,7 +9,8 @@
   text-align: center;
 }
 .nav{
-  color:rgb(255, 255, 255)0;}
+  color:rgb(255, 255, 255)0;
+}
 .box{
   color: rgb(0, 0, 0);
   background-color: rgb(248, 240, 225);
@@ -20,7 +21,7 @@ background-position: center;
 .bar{
   font-family: 'Aboreto', cursive;
   color: rgb(255, 255, 255);
-  background: rgb(255, 255, 255);
+  background-color: black;
 }
 .menu{
   font-family: 'Marmelad', sans-serif;
@@ -37,7 +38,7 @@ background-position: center;
   background-color: rgb(29, 28, 28);
 }
 .table{
-  color: rgb(255, 255, 255);
+  color:  rgb(255, 255, 255);
 }
 .table2{
   color: black;
@@ -60,6 +61,11 @@ background-position: center;
 .gradient{
   background: rgb(255,255,255);
   background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(215,179,89,1) 29%, rgba(209,150,74,1) 88%);
+}
+
+.gradient2{
+  background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(207,71,71,1) 28%, rgba(201,9,32,1) 98%);
 }
 
 
