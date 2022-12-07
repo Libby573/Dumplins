@@ -5,65 +5,409 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dumplins Bistro and Bakery</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            <a class="nav-link" href="Menu.html">Menu</a>
-            <a class="navbar-brand" href="#">
-              <a class="nav-link" href="Desserts.html">Desserts</a>
-              <img src="img/Logo.jfif" alt="Logo" width="100" height="" class="d-inline-block align-text-top">
-            </a>
-            <a class="nav-link" href="SpecialCakes.html">Specialty cakes</a>
-            <a class="nav-link" href="ReservationDelivery.html">Reservations/Delivery</a>
-            <a class="nav-link" href="ContactUs.html">Contact Us!</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <center><h1>Menu</h1></center>
-
-
-    <credit-->
-    <footer class="py-5 bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-xl-6">
-            <div class="footer-info mb-5">
-              <h6 class="text-black font-bold">Socials</h6>
-              <p class="pt-2 mb-2">
-                 Get in touch with us here:<br>
-                
-              </p>
-    
-              <nav aria-label="Magic CMS on the web" class="d-flex align-center">
-                
-                <a href="#" class="text-dark p-2">
-                  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
-                    <title>Instagram</title>
-                    <circle cx="12.145" cy="3.892" r="0.96"></circle>
-                    <path d="M8,12c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S10.206,12,8,12z M8,6C6.897,6,6,6.897,6,8 s0.897,2,2,2s2-0.897,2-2S9.103,6,8,6z"></path>
-                    <path d="M12,16H4c-2.056,0-4-1.944-4-4V4c0-2.056,1.944-4,4-4h8c2.056,0,4,1.944,4,4v8C16,14.056,14.056,16,12,16z M4,2C3.065,2,2,3.065,2,4v8c0,0.953,1.047,2,2,2h8c0.935,0,2-1.065,2-2V4c0-0.935-1.065-2-2-2H4z"></path>
-                  </svg>
+    <div class="bar">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/Logo2-removebg-preview.png" alt="" width="" height="60">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="Menu.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menu
                 </a>
-              </nav>
-            </div>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="Menu.html">Menu</a></li>
+                  <li><a class="dropdown-item" href="Desserts.html">Desserts</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="DailySpecial.html">Daily Specials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ReservationDelivery.html">Reservation/Delivery</a>
+              </li>
+            </ul>
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+            </svg>
+           </div>
           </div>
-          <div class="col-lg-8 col-xl-6">
-            <div class="d-flex flex-wrap footer-menu">
-            </div>
+        </div>
+        <div class="gradient">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="rgb(255, 255, 255)" fill-opacity="1" d="M0,64L48,96C96,128,192,192,288,192C384,192,480,128,576,112C672,96,768,128,864,160C960,192,1056,224,1152,218.7C1248,213,1344,171,1392,149.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        </div>
+
+    
+    <div class="menu">
+    
+        <center><h1>Explore Our Menu</h1></center>
+       <p></p>
+        
+      
+      
+
+
+    <div class="container text-center">
+      <div class="row align-items-start">
+        <div class="col">
+          
+          <img src="img/tea.jpg" alt="" height="350px">
+          
+        </div>
+        
+        <div class="col">
+          
+          <h2>Beverages</h2><hr>
+            <p>Fruit tea $3.15 </p>
+            <p>Arnold Palmer $2.99</p> 
+            <p>Iced Tea $2.99</p>
+            <p>Hot tea $2.99</p>
+            <p></p>Hot Coffee $2.99</p>
+          <p>Iced Coffee Varies</p>
+          <p>Milk $2.99</p>
+          <p>Soft Drink $2.99</p>
+          
+          </div>
+          
+        </div>
+      </div>
+        <div class="container text-center">
+          <div class="row align-items-start">
+        <div class="col">
+        <h2>Appetizers</h2><hr><h4>Homemade Yeast Rolls</h4><p>Yeast rolls made fresh daily served with honey butter and our Strawberry butter.</p>
+        </div>
+        <div class="col">
+          <h2>Kid's Menu</h2><hr><p>Kids Dumplins $6.49</p><p>Grilled Cheese $6.49</p><p>2 piece Chicken Tender $6.49</p><p>3 Veggie Plate $5.99</p>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col">
+          <head>
+            <link rel="stylesheet" href=
+          "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity=
+          "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+              crossorigin="anonymous">
+          
+            <style>
+              .jumbotron-image {
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 100px;
+              }
+            </style>
+          </head>
+          
+          
+            <div class="jumbotron text-white jumbotron-image shadow"
+              style="background-image: url(
+          https://a.mktgcdn.com/p/7SecvHE7x1y2Cr95QpBUcmJegHjquoDL2hNCz2-Nrbs/2000x1581.jpg
+          );">
+          </div>
+        </div>
+        <div class="col">
+          <h2>Sides</h2><hr><p>Soups of the Day</p><p>Dumplins</p><p>Side Salad</p><p>Chips BBQ or Regular</p><p>Fresh Fruit</p><p>Fries</p><p>Vegetables of the Day</p>
+          
+          
+        </div>
+      </div>
+      <div class="row align-items-end">
+        <div class="col">
+          
+        </div>
+        <div class="col">
+          
+
+        </div>
+        <div class="col">
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="gradient">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="rgb(255, 255, 255)" fill-opacity="1" d="M0,32L48,53.3C96,75,192,117,288,133.3C384,149,480,139,576,117.3C672,96,768,64,864,96C960,128,1056,224,1152,229.3C1248,235,1344,149,1392,106.7L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+      </div>  
+
+      <div class="gradient">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="rgb(255, 255, 255)" fill-opacity="1" d="M0,64L48,96C96,128,192,192,288,192C384,192,480,128,576,112C672,96,768,128,864,160C960,192,1056,224,1152,218.7C1248,213,1344,171,1392,149.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      </div>
+    <center><h1>Menu</h1></center>
+    <br>
+    <div class="container text-center">
+      <div class="row align-items-start">
+        <div class="col">
+          <h2>Baskets and Wraps</h2><hr><p>Served with fruit, chips, fries, or fruit.</p><h4>3 or 5 Chicken Strip Meal</h4><p>Our all-white, perfectly fried chicken tenders served with a side of Honey Mustard.</p>
+          <h4>3 or 5 Buffalo Chicken Strip Meal</h4><p>Our perfectly fried chicken strips that are carefully seasoned by our delicous buffalo sauce. Served with our special- Homemade house dressing, Ranch.</p>
+           <h4>Chicken Bacon Ranch Wrap</h4><p>Grilled chicken, smoked bacon & Ranch seasoning encased in a flour tortilla with lettuce and tomatoes. </p>
+           <h4>Strawberry Fields Wrap</h4><p>Grilled chicken, stawberries, spinach, goat cheese and balsamic vinaigrette.</p>
+           <br>
+        </div>
+        <div class="col">
+          <head>
+            <link rel="stylesheet" href=
+          "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity=
+          "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+              crossorigin="anonymous">
+          
+            <style>
+              .jumbotron-image {
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 350px;
+              }
+            </style>
+          </head>
+          
+          
+            <div class="jumbotron text-white jumbotron-image shadow"
+              style="background-image: url(
+          https://th.bing.com/th/id/OIP.OvCBNsBprgWLiCCEOm-TzwHaE8?pid=ImgDet&rs=1
+          );">
+          </div>
+          
+        </div>
+        </div>
+        <div class="container text-center">
+          <div class="row align-items-start">
+        <div class="col">
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <head>
+            <link rel="stylesheet" href=
+          "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity=
+          "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+              crossorigin="anonymous">
+          
+            <style>
+              .jumbotron-image {
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 350px;
+              }
+            </style>
+          </head>
+          
+          
+            <div class="jumbotron text-white jumbotron-image shadow"
+              style="background-image: url(
+          https://th.bing.com/th/id/R.ac0e8ae92bc91386015231e7c6b6539f?rik=kCjO7LbrOQNJPA&riu=http%3a%2f%2fwww.dumplinsbistro.com%2fwp-content%2fuploads%2f2020%2f02%2fsaladchicken.jpg&ehk=bQ5ZkOiCbeQ8ZN8FUEk17yScw7KxBlZ45Yfk0Up2F0o%3d&risl=&pid=ImgRaw&r=0
+          );">
+          </div>
+          
+          
+            <h4>Grilled Salmon Caesar Salad</h4><p>Chopped romaine mixed with Caesar dressing, Parmesan Cheese, Crutons, and topped with a seasoned Salmon Fillet.</p>
+            <h4>Chicken or Tuna Salad</h4><p>Served on a bed of greens with tomatoes, cucumber and crutons.</p>
+            <h4>Buffalo Chicken Salad</h4><p>Cheddar and mozzerella cheese, cucumber, mushroom, tomatoes, and bacon topped with buffalo style fried chicken tenders.</p>
+            <h4>Fried Chicken Salad</h4><p>Cheddar and mozzarella cheese, cucumber, mushroom, tomatoes, and bacon topped with fried chicken tenders.</p>
+
+          </div>
+          <div class="col">
+            <h2>Salads</h2><hr>
+          <h4>Chef Salad</h4><p>Bacon, ham, turkey, assorted cheese, tomatoes, and cucumbers.</p>
+            <h4>Apple Walnut Salad</h4><p>Apples, glazed walnuts, bacon bits, feta cheese, and balsamic vinaigrette.</p>
+            <h4>Grilled Chicken Salad</h4><p>Cheddar and mozzarella cheese, cucumber, mushroom, tomatoes, and bacon.</p>
+            <h4>Goat Cheese Salad</h4><p>Strawberries, mango, spicy pecans, coconut encrusted fried goat cheese, with raspberry vinaigrette on spring greens.</p>
+            <h4>Orange Chicken Salad</h4><p>Diced chicken, mandarian oranges, craisins, cashews, and orange yogurt dressing.</p>
+            <h4>Spring Fruit Salad</h4><p>Choice of chicken or tuna salad served with assorted fruit and orange yogurt dressing.</p>
+            <h4>Trio Sampler Plate</h4><p>Scoops of chicken salad, tuna salad, and pimento cheese arrayed on a bed of lettuce. Served with assorted fruit and orange yogurt. </p>
+            <h4>Crispy Apple Grilled Chicken Salad</h4><p>Grilled chicken, Seneca apple crisps, tomatoes, cranberries and feta cheese served with apple vinaigrette dressing.</p>
           </div>
         </div>
       </div>
-    </footer>
+</div>
+<div class="gradient">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="rgb(255, 255, 255)" fill-opacity="1" d="M0,32L48,53.3C96,75,192,117,288,133.3C384,149,480,139,576,117.3C672,96,768,64,864,96C960,128,1056,224,1152,229.3C1248,235,1344,149,1392,106.7L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+  </div> 
+<div class="gradient">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="rgb(255, 255, 255)" fill-opacity="1" d="M0,64L48,96C96,128,192,192,288,192C384,192,480,128,576,112C672,96,768,128,864,160C960,192,1056,224,1152,218.7C1248,213,1344,171,1392,149.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+</div>
+<center><h1>Tasty Entrees</h1></center>
+<br>
 
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col">
+            <head>
+              <link rel="stylesheet" href=
+            "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+                integrity=
+            "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+                crossorigin="anonymous">
+            
+              <style>
+                .jumbotron-image {
+                  background-position: center center;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                  height: 250px;
+                }
+              </style>
+            </head>
+            
+            
+              <div class="jumbotron text-white jumbotron-image shadow"
+                style="background-image: url(
+            https://a.mktgcdn.com/p/Ri5U5pFevClA34mfacQT9txLpm7_8D-KNu6a2_-eodU/1000x639.jpg
+            );">
+            
+              </div>
+              
+              
+              
+            
+          </div>
+          <div class="col">
+            <h4>Chicken and Dumplins</h4><p>Served with side salad</p>
+            <h4>Diet Special Grilled Chicken</h4><p>Seasoned grilled chicken, served with fruit and green beans.</p>
+            <h4>Lemon Pepper Chicken</h4><p>Served over rice pilaf, with a choice of one side and a choice of soup or salad.</p>
+            <h4>Malibu Chicken</h4><p>Grilled and smothered with saute`ed mushrooms, bacon and cheese served with one side item, plus choice of soup or salad.</p>
+            <br>
+            <hr>
+          </div>
+          <div class="col">
+            <h4>Shrimp and Grits</h4><p>Saute`ed Shrimp with bacon, garlic and mushrooms over cheddar and Parmesan grits</p>
+            <h4>Grilled Salmon</h4><p>Lightly seasoned, seerved with rice, one vegetable and soup or salad.</p>
+            <h4>3 or 4 Vegetable Plate</h4><p>Soup or Salad may be subsituted for 1 option only.</p>
+          </div>
+        </div>
+        </div>
+
+        <div class="container">
+          <div class="row align-items-start">
+            <div class="col">
+              <h1>Deluxe Sandwiches</h1><p>Served on white or wheat bread with soup, salad, or chips. Upgrade to Croissant for 1.00</p>
+              <p>Half Sandwich Meal-$9.19</p>
+              <p>Whole Sandwich-$10.49</p>
+              <b><p>Smoked Turkey & Swiss</p></b>
+              <b><p>Honey Ham & Cheese</p></b>
+              <b><p>Pimento & Cheese</p></b>
+              <b><p>Bacon/Lettuce/Tomato</p></b>
+              <b><p>Chicken Salad</p></b>
+              <b><p>Tuna Salad</p></b>
+              <b><p>Chicken Salad</p></b>
+              <p>with craisins and pecans (.50)</p>
+            </div>
+            <div class="col">
+              <h4>Grilled Salmon Sandwich</h4><p>Seasoned, grilled and placed on a Hawaiian bun with our Dumplins dill sauce.</p>
+              <h4>Spicy Black Bean Chipotle Burger</h4><p>Black bean veggie burger with a 'woah!' flavor.</p>
+              <h4>Grilled Chicken</h4><p>Grilled chicken breast, smothered in Swiss cheese, saute`ed onions and peppers.</p>
+              <h4>Club Deluxe</h4><p>Smoked turkey, ham, bacon, lettuce, tomato and mayo.</p>
+              <h4>50's Burger</h4><p>Hand-patted ground beef burger, served on a toasted Bun.-Add your choice of American, Swiss or Cheddar.-.50 extra Add Bacon-$1.00</p>
+              <p></p>
+            </div>
+            <div class="col">
+              <h4>Mr. Buddy's Roast Beef</h4><p>Roast beef and gravy layered between slices of bread and then covered with gravy. Served with a side of mashed potatoes and gravy. </p>
+              <h4>Roast Beef Sandwich</h4><p>Roast beef on a ciabatta bun with Swiss cheese and a side of Au Jus suace.</p>
+            </div>
+            </div>
+            </div>
+ </div>
+
+ <div class="gradient">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="rgb(255, 255, 255)" fill-opacity="1" d="M0,32L48,53.3C96,75,192,117,288,133.3C384,149,480,139,576,117.3C672,96,768,64,864,96C960,128,1056,224,1152,229.3C1248,235,1344,149,1392,106.7L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+  </div> 
+      <footer class="footer">
+        <br>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-xl-6">
+              <div class="footer-info mb-5">
+                <h6 class="text-black font-bold"></h6>
+                <p class="pt-2 mb-2">
+                   <h5>Get in touch with us here:</h5>
+                </p>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Hours:</th>
+                      <td scope="col">Monday</td>
+                      <td scope="col"> 10:30AM-6:30PM</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row"></th>
+                      <td>Tuesday</td>
+                      <td>10:30AM-6:30PM</td>
+                      
+                    </tr>
+                    <tr>
+                      <th scope="row"></th>
+                      <td>Thursday</td>
+                      <td>10:30AM-6:30PM</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"></th>
+                      <td>Friday</td>
+                      <td>10:30AM-7PM</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"></th>
+                      <td>Saturday</td>
+                      <td>10:30AM-7PM</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"></th>
+                      <td>Sunday</td>
+                      <td>Closed</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <nav aria-label="Magic CMS on the web" class="d-flex align-center">
+                  <a>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                  </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                      <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                    </svg>
+                  
+               
+                </nav>
+              </div>
+    
+            </a>
+            </div>
+            <div class="col-lg-8 col-xl-6">
+              <div class="d-flex flex-wrap footer-menu">
+                <h6>
+                  Phone Number: (731) 664-4959
+                <br>
+                Located in: Northpark Studio of the Arts
+                <br>
+                 Address: 31 Wiley Parker Rd Ste C, Jackson, TN 38305 </h6>
+                <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.5879484259754!2d-88.83107848255614!3d35.662522400000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887ea6d8fcbbdf2f%3A0xb93b41889627d5b9!2sDumplin&#39;s%20of%20Jackson!5e0!3m2!1sen!2sus!4v1668715212565!5m2!1sen!2sus" width="320" height="190" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
 
     </script>
